@@ -20,7 +20,7 @@ wp_head();
 <header id="header">
 	<div class="container">
 		<h1>
-			Simple Responsive BG Images
+			<?=get_bloginfo('name')?>
 		</h1>
 	</div>
 </header>

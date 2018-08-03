@@ -6,7 +6,7 @@ wp_footer();
 
 <footer id="footer">
 	<div class="container">
-		Simple Responsive BG Images in WordPress by Joseph Odom
+		<?=get_bloginfo('description')?>
 	</div>
 </footer>
 

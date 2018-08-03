@@ -9,7 +9,7 @@ get_header();
 <section class="hero background parallax">
 	<div class="container">
 		<h1>
-			Example
+			<?=apply_filters('simple-bg','Example')?>
 		</h1>
 	</div>
 </section>
