@@ -38,7 +38,7 @@ get_header();
 		</p>
 		
 		<p>
-			<img src="<?=wp_get_attachment_image_url(8, 'full')?>" alt="Screenshot of an image in the media library">
+			<img src="<?=wp_get_attachment_image_url(15, 'full')?>" alt="Screenshot of an image in the media library">
 		</p>
 		
 		<p>
