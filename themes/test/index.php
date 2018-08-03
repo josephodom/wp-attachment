@@ -6,9 +6,13 @@ get_header();
 
 
 
-<h1>
-	Test
-</h1>
+<section class="hero background parallax">
+	<div class="container">
+		<h1>
+			Example
+		</h1>
+	</div>
+</section>
 
 
 

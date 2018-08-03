@@ -12,3 +12,21 @@ wp_head();
 </head>
 
 <body>
+
+
+
+
+
+<header id="header">
+	<div class="container">
+		<h1>
+			Simple Responsive BG Images
+		</h1>
+	</div>
+</header>
+
+
+
+
+
+<main id="main">

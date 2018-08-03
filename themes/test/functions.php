@@ -5,6 +5,7 @@
  */
 
 add_action('wp_enqueue_scripts','enqueueScripts');
+add_action('wp_footer','test');
 
 
 
@@ -30,7 +31,7 @@ function enqueueScripts(){
  */
 
 function test(){
-	
+	// nothing
 }
 
 ?>
