@@ -4,7 +4,4 @@ Version: 1.0
 Author: Joseph Odom
 */
 
-body {
-	background-color: #F0F;
-	margin: 0;
-}
+@import url('css/frontend.min.css');

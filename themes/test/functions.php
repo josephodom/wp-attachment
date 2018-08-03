@@ -15,7 +15,10 @@ add_action('wp_enqueue_scripts','enqueueScripts');
  */
 
 function enqueueScripts(){
-	
+	wp_enqueue_style(
+		'test-css',
+		get_stylesheet_uri()
+	);
 }
 
 
