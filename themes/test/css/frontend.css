@@ -15,6 +15,12 @@ body {
 .parallax {
   background-position: fixed; }
 
+.card {
+  background-color: rgba(255, 255, 255, 0.75);
+  border-radius: 0;
+  border-width: 0;
+  padding: 2em; }
+
 #footer {
   background-color: #F5F5F5;
   box-shadow: 0 -1px 1px rgba(0, 0, 0, 0.1);
@@ -27,8 +33,18 @@ body {
   #header h1 {
     margin-bottom: 0; }
 
-.hero {
+section {
   padding: 8em 0;
   text-align: center; }
+
+body {
+  color: #000;
+  font-size: 20px; }
+
+h1 {
+  margin-bottom: 1em; }
+
+img {
+  max-width: 100%; }
 
 /*# sourceMappingURL=frontend.css.map */

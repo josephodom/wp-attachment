@@ -5,7 +5,6 @@
  */
 
 add_action('wp_enqueue_scripts','enqueueScripts');
-add_action('wp_footer','test');
 
 
 
@@ -20,18 +19,6 @@ function enqueueScripts(){
 		'test-css',
 		get_stylesheet_uri()
 	);
-}
-
-
-
-
-
-/**
- * Useful functions go here
- */
-
-function test(){
-	// nothing
 }
 
 ?>
