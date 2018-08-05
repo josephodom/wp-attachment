@@ -121,35 +121,10 @@ function joFilterLightBgImage($get){
 
 function joLightBgImageClasses(){
 ?>
-<style type="text/css">
-[class*="jo-image-"] {
-	position: relative;
-}
-
-[class*="jo-image-"]::before {
-	content: "";
-	height: 100%;
-	position: absolute;
-	right: 0;
-	top: 0;
-	width: 100%;
-}
-
-[class*="jo-image-"] > * {
-	position: relative;
-	z-index: 1;
-}
-
-<?php foreach($GLOBALS['joClassesArray'] as $class=>$list): ?>
-.jo-image-<?=$class?> {
-	background-image: url('<?=$list['small']?>');
-}
-.jo-image-<?=$class?>::before {
-	background: inherit;
-	background-image: url('<?=$list['big']?>');
-}
-<?php endforeach; ?>
-</style>
+<style type="text/css">[class*="jo-image-"]{position:relative;}[class*="jo-image-"]::before{content:"";height:100%;position:absolute;right:0;top:0;width:100%;}[class*="jo-image-"]>*{position:relative;z-index:1;}<?php
+foreach($GLOBALS['joClassesArray'] as $class=>$list):
+?>.jo-image-<?=$class?>{background-image: url('<?=$list['small']?>');}.jo-image-<?=$class?>::before{background:inherit;background-image:url('<?=$list['big']?>');}<?php
+endforeach; ?></style>
 <?php
 }
 
